@@ -5,9 +5,9 @@ vocab = ['print', 'for', 'if', 'else', 'def', 'import', 'return']
 
 # Dados de exemplo
 data = {
-    'print': ['()', "('Hello, world!')"],
-    'for': ['range()', '(5):', '    print(i)'],
-    'if': ['condition:', '    action'],
+    'print': ['()', "(' \n')", '("")'],
+    'for': ['range()', '(a in as):', '    print(i)'],
+    'if': ['(a == b)', '(a != b)','() && ()','() || ()'],
     'else': [':', '    action'],
     'def': ['function_name:', '    action', '    return'],
     'import': ['module'],
